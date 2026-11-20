@@ -1,0 +1,34 @@
+TITANIC DATA ANALYSIS REPORT
+
+1. Dataset overview
+The dataset contains 891 passengers.
+Overall, 38.4% survived.
+
+2. Survival by passenger class
+- Class 1: 63.0% survived
+- Class 2: 47.3% survived
+- Class 3: 24.2% survived
+
+3. Survival by sex
+- female: 74.2% survived
+- male: 18.9% survived
+
+4. Correlation with survival
+- Sex (female coded 1): 0.543
+- Passenger class: -0.338
+- Fare: 0.257
+- Age: -0.065
+
+5. Main insights
+- Survival rates differed substantially by passenger class and sex.
+- In this dataset, female passengers and passengers in higher classes had higher survival rates.
+- Correlation shows association; it does not prove that a factor caused survival.
+
+6. Charts
+See outputs/charts for:
+- survival_by_class.png
+- survival_by_sex.png
+- correlation_heatmap.png
+
+7. Data note
+Missing ages were filled with the median age for the summary and charts.
